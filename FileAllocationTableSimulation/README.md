@@ -6,8 +6,6 @@ Do not upload any files in this repository to public websites. If you want to cl
 starter code for assignment 5
 
 ## `test1.txt`
-![graph for test1.txt](images/test1.svg "graph for test1.txt")
-
 ```
 $ cat test1.txt
   6 12  7  7 -1 15  9 15  6 10
@@ -19,8 +17,6 @@ elapsed time: 0.000s
 ```
 
 ## `test2.txt`
-![graph for test2.txt](images/test2.svg "graph for test2.txt")
-
 ```
 $ cat test2.txt
 1 2 3 4 5 6 7 -1
@@ -34,7 +30,6 @@ elapsed time: 0.000s
 ```
 
 ## `test3.txt`
-Too long to show the file, nor the graph.
 ```
 $ ./fatsim < test3.txt
 chain sizes:
@@ -42,7 +37,6 @@ elapsed time: 0.038s
 ```
 
 ## `test4.txt`
-![graph for test4.txt](images/test4.svg "graph for test4.txt")
 ```
 cat test4.txt
   98    0   87   45   75   38   -1   -1   43    8
@@ -61,24 +55,23 @@ $ ./fatsim < test4.txt
 chain sizes: 3 4 5 7 10 11 17
 elapsed time: 0.000s
 ```
-## `test5.txt`
-![graph for test5.txt](images/test5.svg "graph for test5.txt")
 
+## `test5.txt`
 ```
 $ ./fatsim < test5.txt
 chain sizes: 1 1 2 2 3 3 6 6 6 7 7 8 8 10 12 12 15 15 20 21
 elapsed time: 0.000s
 ```
-## `test6.txt`
 
+## `test6.txt`
 ```
 $ ./fatsim < test6.txt
 chain sizes: 2 5 11 13 15 22 22 27 37 53 55 78 81 102 120 125 125 126 126 167 171
   178 183 192 198 203 207 215 254 272
 elapsed time: 0.002s
 ```
-## `test7.txt`
 
+## `test7.txt`
 ```
 $ ./fatsim < test7.txt
 chain sizes: 597 828 1007 1504 2386 2513 2569 3093 3201 3421 3862 4395 5126 6590 8145
