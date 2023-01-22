@@ -1,6 +1,6 @@
 **WARNING:** Do not upload any files in this repository to public websites. If you want to clone this repository, please make sure to keep it private.
 
-# Round Robin CPU Scheduler Simulator - starter code for Assignment 4
+# Round Robin CPU Scheduler Simulator
 
 To compile all code, type:
 ```
