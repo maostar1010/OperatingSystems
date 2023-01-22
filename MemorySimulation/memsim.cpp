@@ -1,5 +1,5 @@
 // -------------------------------------------------------------------------------------
-// this is the only file you need to edit
+// Editted and submitted by: Mary Mo (ga.mo@ucalgary.ca)
 // -------------------------------------------------------------------------------------
 //
 // (c) 2022, Pavol Federl, pfederl@ucalgary.ca
