@@ -20,6 +20,7 @@ $ ./fatsim < test1.txt
 chain sizes: 1 1 5
 elapsed time: 0.000s
 ```
+![image](https://user-images.githubusercontent.com/79169577/213958573-8254f8ad-b5f9-4e84-b778-9bd05aa799c6.png)
 
 ### `test2.txt`
 ```
