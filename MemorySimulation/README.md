@@ -16,7 +16,7 @@ $ $ wc -l test*.txt
  2068852 total
 ```
 ---
-# Expected results
+## Expected results
 ```
 $ ./memsim 123 < test1.txt
 pages requested:                58
