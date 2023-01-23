@@ -1,6 +1,7 @@
 **WARNING:** Do not upload any files in this repository to public websites. If you want to clone this repository, please make sure to keep it private.
 
 # Worst-fit Dynamic Partition Memory Simulator
+The simulator approximates some of the functionalities of `malloc()` and `free()` in the standard C library, using worst-fit algorithm.
 
 To compile all code, type:
 ```
