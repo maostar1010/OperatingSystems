@@ -27,7 +27,7 @@ $ make
 
 ## Sample test files
 ```
-$ $ wc -l test*.txt
+$ wc -l test*.txt
       10 test0.txt
       17 test1.txt
        1 test2.txt
