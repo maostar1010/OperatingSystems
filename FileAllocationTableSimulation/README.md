@@ -8,7 +8,7 @@ $ make
 ```
 ## Input
 * FAT entries are represented by N integers. Each number is an integer in range [-1 ... N-1], where '-1' representes null pointer (end of chain), and numbers greater than 0 represent pointers to blocks. The i-th integer will represent the i-th entry in the FAT.
-* ![image](https://user-images.githubusercontent.com/79169577/213958873-431b3787-1652-4b0b-bad8-47f0921e532f.png)
+![image](https://user-images.githubusercontent.com/79169577/213958873-431b3787-1652-4b0b-bad8-47f0921e532f.png)
 * Ex) The first integer '6' represents that the next pointer of block '0' is block '6'.
 
 ## Limits
