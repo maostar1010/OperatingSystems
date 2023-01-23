@@ -6,7 +6,6 @@ To compile all code, type:
 ```
 $ make
 ```
-
 ## Limits
 * `requests.size()` in range [0 ... 1,000,000]
 * `page_size` in range [1 ... 1,000,000]
