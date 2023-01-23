@@ -1,6 +1,7 @@
 **WARNING:** Do not upload any files in this repository to public websites. If you want to clone this repository, please make sure to keep it private.
 
 # File Allocation Table Simulation
+The simulation finds the longest possible chain terminating on each block containing '-1' in the FAT, and report these lengths.
 
 To compile all code, type:
 ```
