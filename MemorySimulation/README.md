@@ -2,7 +2,7 @@
 
 # Worst-fit Dynamic Partition Memory Simulator
 
-## sample test files:
+## Sample test files
 ```
 $ $ wc -l test*.txt
       10 test0.txt
@@ -16,7 +16,7 @@ $ $ wc -l test*.txt
  2068852 total
 ```
 ---
-# Expected results:
+# Expected results
 ```
 $ ./memsim 123 < test1.txt
 pages requested:                58
