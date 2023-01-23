@@ -6,8 +6,10 @@ To compile all code, type:
 ```
 $ make
 ```
-## Expected results
+## Limits
+* Number of entries in FAT should be in the range [1 ... 10,000,000]
 
+## Expected results
 ### `test1.txt`
 ```
 $ cat test1.txt
