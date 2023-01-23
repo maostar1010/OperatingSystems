@@ -6,7 +6,7 @@ To compile all code, type:
 ```
 $ make
 ```
-## Expected results:
+## Expected results
 
 ### `test1.txt`
 ```
