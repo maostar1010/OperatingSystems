@@ -2,6 +2,17 @@
 
 # Worst-fit Dynamic Partition Memory Simulator
 
+To compile all code, type:
+```
+$ make
+```
+
+## Limits
+* requests.size() in range [0 ... 1,000,000]
+* page_size in range [1 ... 1,000,000]
+* Each request's tag in range [-10,000,000 ... 10,000,000]
+* Each request's size in range [1 ... 10,000,000]
+
 ## Sample test files
 ```
 $ $ wc -l test*.txt
