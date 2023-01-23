@@ -6,6 +6,11 @@ To compile all code, type:
 ```
 $ make
 ```
+## Input
+* FAT entries are represented by N integers. Each number is an integer in range [-1 ... N-1], where '-1' representes null pointer (end of chain), and numbers greater than 0 represent pointers to blocks. The i-th integer will represent the i-th entry in the FAT.
+* ![image](https://user-images.githubusercontent.com/79169577/213958873-431b3787-1652-4b0b-bad8-47f0921e532f.png)
+* Ex) The first integer '6' represents that the next pointer of block '0' is block '6'.
+
 ## Limits
 * Number of entries in FAT should be in the range [1 ... 10,000,000]
 
@@ -20,7 +25,6 @@ $ ./fatsim < test1.txt
 chain sizes: 1 1 5
 elapsed time: 0.000s
 ```
-![image](https://user-images.githubusercontent.com/79169577/213958573-8254f8ad-b5f9-4e84-b778-9bd05aa799c6.png)
 
 ### `test2.txt`
 ```
