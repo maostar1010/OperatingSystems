@@ -6,6 +6,18 @@ To compile all code, type:
 ```
 $ make
 ```
+## Input
+* Page size (a positive integer) and a list of allocation and deallocation reqeuests
+
+## Allocation request
+* Each allocation request has two parameters - a tag and a size.
+* The program scans the list of partitions from start to end and finds a free partition using worst-fit algorithm. If more than one partition qualifies, the partition with the smallest address is used. If the partition is bigger than the requested size, the partition is split in two - an occupied and a free partition. The tag specified in the request is stored in the occupied partition.
+* When the simulator fails to find a suitably large free partition, it simulates asking the OS for more memory. The amount of memory requeested from OS is a multiple of `page_size`. The newly obtained memory is appended at the end of the list of paritions, and if appropriate, merged with the last free partition.
+
+## Deallocation request
+* Deallocation requests have a single parameter - a tag, and is represented by a negative number in the input list of requests.
+* The simulator finds all allocated partitions with the given tag and mark them free. Any adjacent free partitions are merged. If there are no partitions with the given tag, the simulator ignores such deallocation request.
+
 ## Limits
 * `requests.size()` should be in the range [0 ... 1,000,000]
 * `page_size` should be in the range [1 ... 1,000,000]
